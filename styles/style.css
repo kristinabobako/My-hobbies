@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: Kurale, serif;
-    text-align: center;
 }
 
 section {
@@ -30,7 +29,7 @@ h3 {
 }
 
 .about-me {
-    background-color: pink;
+    background-color: #E5E5E5;
 }
 
 .container-about-me {
@@ -46,9 +45,10 @@ h3 {
 }
 
 .my-foto {
-    width: 100%;
+    max-width: 208px;
     height: 100%;
     object-fit: cover;
+    border-radius: 50px;
 }
 
 .container-about-me__description {
